@@ -1,0 +1,6 @@
+.text-about {
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 10px;
+    color: var(--color-rfont-secondary);
+}

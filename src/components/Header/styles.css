@@ -1,0 +1,37 @@
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-rbg-secondary);
+    color: var(--color-rfont-primary);
+
+}
+
+.site-name {
+    font-size: 20px;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.menu-active {
+    font-weight: 700;
+}

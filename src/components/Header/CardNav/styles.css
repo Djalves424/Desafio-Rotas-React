@@ -1,0 +1,35 @@
+.card-nav {
+    background-color: var(--color-rbg-tertiary);
+    padding: 20px;
+    min-height: 60px;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.menu-active {
+    font-weight: 700;
+}
